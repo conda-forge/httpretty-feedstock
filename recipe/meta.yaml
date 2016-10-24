@@ -1,11 +1,11 @@
 package:
     name: httpretty
-    version: 0.8.14
+    version: 0.8.10
 
 source:
-    fn: httpretty-0.8.14.tar.gz
-    url: https://pypi.python.org/packages/source/h/httpretty/httpretty-0.8.14.tar.gz
-    md5: 2a6bbf270fafc77647b0479d95d0544c
+    fn: httpretty-0.8.10.tar.gz
+    url: https://pypi.python.org/packages/source/h/httpretty/httpretty-0.8.10.tar.gz
+    md5: 9c130b16726cbf85159574ae5761bce7
 
 build:
     number: 0
