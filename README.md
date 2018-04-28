@@ -14,9 +14,8 @@ Summary: HTTP client mock for Python.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/httpretty-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/httpretty-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/httpretty-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/httpretty-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/httpretty-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/httpretty-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/httpretty-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/httpretty-feedstock)
 
 Current release info
 ====================
