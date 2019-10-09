@@ -1,4 +1,4 @@
-{% set version = "0.9.6" %}
+{% set version = "0.9.7" %}
 
 package:
   name: httpretty
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/h/httpretty/httpretty-{{ version }}.tar.gz
-  sha256: 01b52d45077e702eda491f4fe75328d3468fd886aed5dcc530003e7b2b5939dc
+  sha256: 66216f26b9d2c52e81808f3e674a6fb65d4bf719721394a1a9be926177e55fbe
 
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
