@@ -1,4 +1,4 @@
-{% set version = "0.9.7" %}
+{% set version = "1.0.0" %}
 
 package:
   name: httpretty
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/h/httpretty/httpretty-{{ version }}.tar.gz
-  sha256: 66216f26b9d2c52e81808f3e674a6fb65d4bf719721394a1a9be926177e55fbe
+  sha256: 83002c8eaec9e4c04132479f1caa827ead67dad1e5bb216d55cdd551717beff1
 
 build:
   noarch: python
@@ -29,7 +29,7 @@ about:
   home: http://github.com/gabrielfalcao/httpretty
   license: MIT
   license_file: COPYING
-  summary: 'HTTP client mock for Python.'
+  summary: HTTP client mock for Python.
 
 extra:
   recipe-maintainers:
