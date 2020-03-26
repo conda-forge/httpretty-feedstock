@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.0.2" %}
 
 package:
   name: httpretty
@@ -6,22 +6,26 @@ package:
 
 source:
   url: https://pypi.io/packages/source/h/httpretty/httpretty-{{ version }}.tar.gz
-  sha256: 83002c8eaec9e4c04132479f1caa827ead67dad1e5bb216d55cdd551717beff1
+  sha256: 24a6fd2fe1c76e94801b74db8f52c0fb42718dc4a199a861b305b1a492b9d868
 
 build:
-  noarch: python
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
-    - python
+    - python >=3
     - pip
   run:
-    - python
+    - python >=3
     - six
 
 test:
+  requires:
+    - pip
+  commands:
+    - pip check
   imports:
     - httpretty
 
@@ -29,7 +33,7 @@ about:
   home: http://github.com/gabrielfalcao/httpretty
   license: MIT
   license_file: COPYING
-  summary: HTTP client mock for Python.
+  summary: HTTP client mock for Python
 
 extra:
   recipe-maintainers:
