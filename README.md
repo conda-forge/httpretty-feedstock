@@ -5,11 +5,9 @@ Home: http://github.com/gabrielfalcao/httpretty
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/httpretty-feedstock/blob/master/LICENSE.txt)
 
 Summary: HTTP client mock for Python
-
-
 
 Current build status
 ====================
